@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			e.preventDefault();
 			openModal();
 
-			if (e.target.classList.contains('header-link__login')) {
+			if (e.target.classList.contains('header__login')) {
 				hideForm();
 				showForm();
 			} else {
