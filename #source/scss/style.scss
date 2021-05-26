@@ -876,6 +876,7 @@ body {
 	&__headers {
 		display: flex;
 		max-width: 100%;
+		border-radius: 20px 20px 0 0;
 		background-color: rgba(89, 94, 100, .1);
 	}
 	&__title {
